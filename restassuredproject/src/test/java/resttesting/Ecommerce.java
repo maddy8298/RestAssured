@@ -17,7 +17,7 @@ public void signup()
 	RestAssured.baseURI =baseurl;
 	
 String 	requestbody = "{\n"
-		+ "	\"email\": \"latha88199@gmail.com\",\n"
+		+ "	\"email\": \"latha808908@gmail.com\",\n"
 		+ "	\"password\": \"krishna@123\"\n"
 		+ "}";
 
@@ -50,7 +50,7 @@ public void Login()
 	RestAssured.baseURI =baseurl;
 	
 String 	requestbody = "{\n"
-		+ "	\"email\": \"latha88199@gmail.com\",\n"
+		+ "	\"email\": \"latha808908@gmail.com\",\n"
 		+ "	\"password\": \"krishna@123\"\n"
 		+ "}";
 
