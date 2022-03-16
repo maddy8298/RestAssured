@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-16T09:58:44 IST" name="Default suite" finished-at="2022-03-16T09:58:56 IST" duration-ms="12049">
+  <suite started-at="2022-03-16T14:48:29 IST" name="Default suite" finished-at="2022-03-16T14:48:43 IST" duration-ms="13472">
     <groups>
     </groups>
-    <test started-at="2022-03-16T09:58:44 IST" name="Default test" finished-at="2022-03-16T09:58:56 IST" duration-ms="12049">
+    <test started-at="2022-03-16T14:48:29 IST" name="Default test" finished-at="2022-03-16T14:48:43 IST" duration-ms="13472">
       <class name="resttesting.Ecommerce">
-        <test-method signature="signup()[pri:0, instance:resttesting.Ecommerce@41fecb8b]" started-at="2022-03-16T09:58:44 IST" name="signup" finished-at="2022-03-16T09:58:52 IST" duration-ms="7788" status="PASS">
+        <test-method signature="signup()[pri:0, instance:resttesting.Ecommerce@41fecb8b]" started-at="2022-03-16T14:48:29 IST" name="signup" finished-at="2022-03-16T14:48:38 IST" duration-ms="9290" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signup -->
-        <test-method signature="Login()[pri:1, instance:resttesting.Ecommerce@41fecb8b]" started-at="2022-03-16T09:58:52 IST" name="Login" finished-at="2022-03-16T09:58:56 IST" duration-ms="4196" status="PASS">
+        <test-method signature="Login()[pri:1, instance:resttesting.Ecommerce@41fecb8b]" started-at="2022-03-16T14:48:38 IST" name="Login" finished-at="2022-03-16T14:48:43 IST" duration-ms="4126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->

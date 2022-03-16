@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="resttesting.e_commerce">
+      <class name="resttesting.Ecommerce">
         <methods>
-          <include name="Login"/>
           <include name="signup"/>
         </methods>
-      </class> <!-- resttesting.e_commerce -->
+      </class> <!-- resttesting.Ecommerce -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -7,7 +7,8 @@ import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
-public class Ecommerce {public static String baseurl = "https://ecommerceservice.herokuapp.com";
+public class Ecommerce {
+	public static String baseurl = "https://ecommerceservice.herokuapp.com";
 public static String message;
 public static String accessToken;
 @Test(priority = 0)
@@ -15,11 +16,11 @@ public void signup()
 {
 	RestAssured.baseURI =baseurl;
 	
-String 	requestbody = "{\r\n"
-		+ "	\"email\": \"achutha${=String.valueOf(Math.random()*1000).substring(0,5)}@gmail.com\",\r\n"
-		+ "	\"password\": \"krishna@123\"\r\n"
-		+ "}\r\n"
-		+ "";
+String 	requestbody = "{\n"
+		+ "	\"email\": \"latha88199@gmail.com\",\n"
+		+ "	\"password\": \"krishna@123\"\n"
+		+ "}";
+
 Response response = given()
 		.header("Content-Type","application/json")
 		.body(requestbody)
@@ -49,7 +50,7 @@ public void Login()
 	RestAssured.baseURI =baseurl;
 	
 String 	requestbody = "{\n"
-		+ "	\"email\": \"latha8899@gmail.com\",\n"
+		+ "	\"email\": \"latha88199@gmail.com\",\n"
 		+ "	\"password\": \"krishna@123\"\n"
 		+ "}";
 
@@ -71,18 +72,6 @@ JsonPath js = new JsonPath(jsonresponse);
 //nw i have to fetch the id
 accessToken = js.get("accessToken");
 System.out.println(accessToken);
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
